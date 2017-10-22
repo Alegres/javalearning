@@ -1,0 +1,1 @@
+var helloMessage = "Hello, my lovely world!";
