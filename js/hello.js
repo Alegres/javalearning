@@ -1,1 +1,2 @@
-alert(helloMessage);
+if (showHelloMessage == true)
+    alert(helloMessage);
