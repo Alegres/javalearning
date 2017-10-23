@@ -3,4 +3,4 @@
 var initInfo = document.getElementById("initInfo");
 var av = getAverage(5, 10);
 
-initInfo.innerHTML += av.toString() + "<br />";
+initInfo.innerHTML += av.toString() + "<br />" + sliced;
