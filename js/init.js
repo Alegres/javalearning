@@ -3,4 +3,7 @@
 var initInfo = document.getElementById("initInfo");
 var av = getAverage(5, 10);
 
-initInfo.innerHTML += av.toString() + "<br />" + sliced;
+initInfo.innerHTML += av.toString() + "<br />" + sliced + "<br />";
+
+for (ia = 0; ia < pizzaArray.length; ia++)
+     initInfo.innerHTML += pizzaArray[ia] + "<br />";
