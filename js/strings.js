@@ -1,0 +1,1 @@
+/* This script will demonstrate some string actions in JS */
