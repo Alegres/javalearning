@@ -54,4 +54,17 @@ body {
     padding-top: 10px;
     width: 200px;
     margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#status {
+    width: 40%;
+    margin: 0 auto;
+    background: bisque;
+    height: 30px;
+    
+    /* Transition */
+    -webkit-transition: background 0.7s;
+    -moz-transition: background 0.7s;
+    transition: background 0.7s; 
 }

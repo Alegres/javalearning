@@ -1,4 +1,8 @@
 /* Some js for my showbox */
+var stat = document.getElementById("status");
+
+var colors = ["blanchedalmond", "azure", "beige", "bisque"];
+var counter = 0;
 
 function setUpEvents() {
     
@@ -17,7 +21,19 @@ function setUpEvents() {
     
 }
 
+function changeColor() {
+    
+    if (counter >= colors.length) {
+        counter = 0;
+    }
+    
+    stat.style.backgroundColor = colors[counter];
+    counter++; 
+    
+}
 
 window.onload = function() {
     setUpEvents();
+    setInterval(changeColor, 3000);
 }
+
