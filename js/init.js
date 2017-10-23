@@ -10,3 +10,5 @@ for (ia = 0; ia < pizzaArray.length; ia++)
 
 initInfo.innerHTML += myCar.drive() + "<br />";
 initInfo.innerHTML += myGirl.speak() + "<br />";
+
+initInfo.innerHTML += myNewCar.driver + "<br />";

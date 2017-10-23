@@ -8,3 +8,11 @@ var myGirl = {
     rate: 10, 
     speak: function() { return "I love you"; }
 };
+
+// Constructor
+var Car = function(maxSpeed, driver) {
+    this.maxSpeed = maxSpeed;
+    this.driver = driver;
+}
+
+var myNewCar = new Car(50, "Damian");
