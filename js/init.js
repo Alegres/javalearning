@@ -9,3 +9,4 @@ for (ia = 0; ia < pizzaArray.length; ia++)
      initInfo.innerHTML += pizzaArray[ia] + "<br />";
 
 initInfo.innerHTML += myCar.drive() + "<br />";
+initInfo.innerHTML += myGirl.speak() + "<br />";
