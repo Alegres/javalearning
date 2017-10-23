@@ -7,3 +7,5 @@ initInfo.innerHTML += av.toString() + "<br />" + sliced + "<br />";
 
 for (ia = 0; ia < pizzaArray.length; ia++)
      initInfo.innerHTML += pizzaArray[ia] + "<br />";
+
+initInfo.innerHTML += myCar.drive() + "<br />";
