@@ -1,0 +1,1 @@
+/* This script will perform some init actions */
