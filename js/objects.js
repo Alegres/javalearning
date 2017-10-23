@@ -1,0 +1,1 @@
+/* This script will demonstrate how objects work */
